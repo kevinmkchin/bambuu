@@ -394,11 +394,11 @@ public class MapEditor extends JFrame implements ActionListener, MouseMotionList
         if (returnVal == JFileChooser.APPROVE_OPTION) {
             File file = fc.getSelectedFile();
 
-            String extension = getExtension(file);
-            if(!extension.equals("bbuu")){
-                JOptionPane.showMessageDialog(this, "File isn't a .bbuu");
-                return;
-            }
+//            String extension = getExtension(file);
+//            if(!extension.equals("bbuu")){
+//                JOptionPane.showMessageDialog(this, "File isn't a .bbuu");
+//                return;
+//            }
 
 
             level = new Level(file);
@@ -436,7 +436,7 @@ public class MapEditor extends JFrame implements ActionListener, MouseMotionList
             mapData = writeFromArray(mapData, ceilArrayToSave);
         }
 
-        fc.setDialogTitle("Save bambuu map as... (extension must be .bbuu)");
+        fc.setDialogTitle("Save bambuu map as... (extension must be .bbuu or .txt)");
         int userSelection = fc.showSaveDialog(this);
         if(userSelection == JFileChooser.APPROVE_OPTION){
             File fileToSave = fc.getSelectedFile();
