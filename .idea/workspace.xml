@@ -1,30 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="bambuu:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d6673fbd-5ed7-41d5-af33-1e56e65bd8ab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bambuu/engine/Level.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bambuu/engine/Level.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bambuu/mapeditor/EditorPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bambuu/mapeditor/EditorPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bambuu/mapeditor/MapEditor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bambuu/mapeditor/MapEditor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bambuu/mapeditor/Settings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bambuu/mapeditor/Settings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bambuu/mapeditor/SettingsFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bambuu/mapeditor/SettingsFrame$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bambuu/mapeditor/SettingsFrame$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bambuu/mapeditor/SettingsFrame$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bambuu/mapeditor/SettingsFrame$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bambuu/mapeditor/SettingsFrame$11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bambuu/mapeditor/SettingsFrame$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bambuu/mapeditor/SettingsFrame$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bambuu/mapeditor/SettingsFrame$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bambuu/mapeditor/SettingsFrame$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bambuu/mapeditor/SettingsFrame$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bambuu/mapeditor/SettingsFrame$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bambuu/mapeditor/SettingsFrame$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bambuu/mapeditor/SettingsFrame$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bambuu/mapeditor/SettingsFrame$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bambuu/mapeditor/SettingsFrame$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bambuu/mapeditor/SettingsFrame$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bambuu/mapeditor/SettingsFrame$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bambuu/mapeditor/SettingsFrame$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bambuu/mapeditor/SettingsFrame$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bambuu/mapeditor/SettingsFrame$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bambuu/mapeditor/SettingsFrame$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bambuu/mapeditor/SettingsFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bambuu/mapeditor/SettingsFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/settings.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/engine/Level.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/engine/Level.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mapeditor/EditorPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mapeditor/EditorPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mapeditor/MapEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mapeditor/MapEditor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mapeditor/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mapeditor/Settings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mapeditor/SettingsFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mapeditor/SettingsFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/B.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/C.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/D.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/F.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/G.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/H.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/I.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/J.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/K.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/M.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/N.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/O.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/P.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/Q.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/R.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/S.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/T.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/U.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/V.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/W.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/X.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/Y.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/Z.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/color tiles backup/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/color tiles backup/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/color tiles backup/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/color tiles backup/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/color tiles backup/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/color tiles backup/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/color tiles backup/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/color tiles backup/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/color tiles backup/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/B.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/C.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/D.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/F.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/G.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/H.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/I.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/J.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/K.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/M.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/N.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/O.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/P.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/Q.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/R.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/S.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/T.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/U.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/V.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/W.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/X.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/Y.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/Z.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/platformer tiles backup/A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/platformer tiles backup/B.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/platformer tiles backup/C.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/platformer tiles backup/D.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/platformer tiles backup/E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/platformer tiles backup/F.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/platformer tiles backup/G.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/platformer tiles backup/H.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/bambuu.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/settings.cfg" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,11 +119,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mapeditor/MapEditor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="157" lean-forward="true" selection-start-line="157" selection-end-line="157" />
+            <state relative-caret-position="22">
+              <caret line="157" selection-start-line="157" selection-end-line="157" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#17097#17098#0" expanded="true" />
@@ -64,10 +135,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/engine/Level.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
+            <state relative-caret-position="-460">
               <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -158,19 +229,7 @@
             <path>
               <item name="bambuu" type="b2602c69:ProjectViewProjectNode" />
               <item name="bambuu" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bambuu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bambuu" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="engine" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bambuu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bambuu" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="mapeditor" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -241,12 +300,20 @@
       <updated>1568521728916</updated>
       <workItem from="1568521730556" duration="18401000" />
       <workItem from="1568543862172" duration="131000" />
-      <workItem from="1568580561261" duration="5633000" />
+      <workItem from="1568580561261" duration="5919000" />
     </task>
+    <task id="LOCAL-00001" summary="Release 1.1&#10;Support for non-square tilemaps&#10;Added line delimiters">
+      <created>1568586260301</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568586260301</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24165000" />
+    <option name="totallyTimeSpent" value="24451000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -259,9 +326,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -269,7 +335,7 @@
       <window_info id="simpleUML" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -292,6 +358,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Release 1.1&#10;Support for non-square tilemaps&#10;Added line delimiters" />
+    <option name="LAST_COMMIT_MESSAGE" value="Release 1.1&#10;Support for non-square tilemaps&#10;Added line delimiters" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java" />
@@ -372,9 +442,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/mapeditor/EditorPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="59" column="48" selection-start-line="59" selection-start-column="48" selection-end-line="59" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mapeditor/MapEditor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="157" selection-start-line="157" selection-end-line="157" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#17097#17098#0" expanded="true" />
+            <element signature="e#17191#17192#0" expanded="true" />
+            <element signature="e#17628#17629#0" expanded="true" />
+            <element signature="e#17696#17697#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/engine/Level.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
+        <state relative-caret-position="-460">
           <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -389,27 +480,6 @@
             <element signature="e#3911#3912#0" expanded="true" />
             <element signature="e#3988#3989#0" expanded="true" />
             <element signature="e#4063#4064#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mapeditor/EditorPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="59" column="48" selection-start-line="59" selection-start-column="48" selection-end-line="59" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mapeditor/MapEditor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="157" lean-forward="true" selection-start-line="157" selection-end-line="157" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#17097#17098#0" expanded="true" />
-            <element signature="e#17191#17192#0" expanded="true" />
-            <element signature="e#17628#17629#0" expanded="true" />
-            <element signature="e#17696#17697#0" expanded="true" />
           </folding>
         </state>
       </provider>
