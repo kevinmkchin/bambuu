@@ -143,6 +143,18 @@ public class MapEditor extends JFrame implements ActionListener, MouseMotionList
         masterCharacterMap.put("X", TileLoader.getTile("X"));
         masterCharacterMap.put("Y", TileLoader.getTile("Y"));
         masterCharacterMap.put("Z", TileLoader.getTile("Z"));
+        masterCharacterMap.put("!", TileLoader.getTile("!"));
+        masterCharacterMap.put("@", TileLoader.getTile("@"));
+        masterCharacterMap.put("#", TileLoader.getTile("#"));
+        masterCharacterMap.put("$", TileLoader.getTile("$"));
+        masterCharacterMap.put("%", TileLoader.getTile("%"));
+        masterCharacterMap.put("^", TileLoader.getTile("^"));
+        masterCharacterMap.put("&", TileLoader.getTile("&"));
+        masterCharacterMap.put("*", TileLoader.getTile("*"));
+        masterCharacterMap.put("(", TileLoader.getTile("("));
+        masterCharacterMap.put(")", TileLoader.getTile(")"));
+        masterCharacterMap.put("-", TileLoader.getTile("-"));
+        masterCharacterMap.put("+", TileLoader.getTile("+"));
 
     }
 
@@ -428,11 +440,11 @@ public class MapEditor extends JFrame implements ActionListener, MouseMotionList
             mapData = writeFromArray(mapData, wallArrayToSave);
         }
         if(use2.isSelected()) {
-            mapData += "/";
+            mapData += settings.getLayerDelimiter();
             mapData = writeFromArray(mapData, floorArrayToSave);
         }
         if(use3.isSelected()) {
-            mapData += "/";
+            mapData += settings.getLayerDelimiter();
             mapData = writeFromArray(mapData, ceilArrayToSave);
         }
 
@@ -451,9 +463,12 @@ public class MapEditor extends JFrame implements ActionListener, MouseMotionList
 
     }
     private String writeFromArray(String string, Character[][] array){
-        for(int i=0; i<editorPanel.getLevel().getMapWidth(); i++){
-            for(int j=0; j<editorPanel.getLevel().getMapHeight(); j++){
+        for(int i=0; i<editorPanel.getLevel().getMapHeight(); i++){
+            for(int j=0; j<editorPanel.getLevel().getMapWidth(); j++){
                 string += array[i][j].toString();
+            }
+            if(i != editorPanel.getLevel().getMapHeight()-1) {
+                string += settings.getLineDelimiter();
             }
         }
         return string;

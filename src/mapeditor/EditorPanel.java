@@ -36,8 +36,8 @@ public class EditorPanel extends JPanel {
             int mapW = level.getMapWidth();
             int mapH = level.getMapHeight();
 
-            for(int i=0; i<mapW; i++){
-                for(int j=0; j<mapH; j++){
+            for(int i=0; i<mapH; i++){
+                for(int j=0; j<mapW; j++){
                     String currentCharacter = arrayForDisplay[i][j].toString();
                     Texture matchingTexture = frame.getMasterCharacterMap().get(currentCharacter);
                     if(matchingTexture == null){ continue; }
@@ -57,7 +57,7 @@ public class EditorPanel extends JPanel {
 
     public void setLevel(Level level) {
         this.level = level;
-        tileSize = editorW / level.getMapHeight(); //rounds down cuz integer
+        tileSize = editorW / level.getMapWidth(); //rounds down cuz integer
         //for zoom, just double tileSize
     }
 

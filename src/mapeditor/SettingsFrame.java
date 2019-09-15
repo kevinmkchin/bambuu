@@ -11,6 +11,8 @@ public class SettingsFrame extends JFrame {
 
     JTextField imageSizeField;
     JTextField extensionField;
+    JTextField layerDelimiterField;
+    JTextField lineDelimiterField;
 
     ButtonGroup colorSelect;
     private JRadioButton white,
@@ -35,11 +37,11 @@ public class SettingsFrame extends JFrame {
         black = new JRadioButton("Black", false);
         lightred = new JRadioButton("Light Red", false);
         darkred = new JRadioButton("Dark Red", false);
-        lightblue = new JRadioButton("Light Blue", false);
+        lightblue = new JRadioButton("Light Blue", true);
         darkblue = new JRadioButton("Dark Blue", false);
         lightgray = new JRadioButton("Light Gray", false);
         darkgray = new JRadioButton("Dark Gray", false);
-        lightgreen = new JRadioButton("Light Green", true);
+        lightgreen = new JRadioButton("Light Green", false);
         darkgreen = new JRadioButton("Dark Green", false);
         colorSelect.add(white);
         colorSelect.add(black);
@@ -123,10 +125,16 @@ public class SettingsFrame extends JFrame {
         });
 
         JLabel l1 = new JLabel("Size of Tile Image");
-        imageSizeField = new JTextField("64");
+        imageSizeField = new JTextField(String.valueOf(MapEditor.settings.getTileSize()));
 
         JLabel l2 = new JLabel("Extension of Tile Image");
-        extensionField = new JTextField(".png");
+        extensionField = new JTextField(MapEditor.settings.getImageExtension());
+
+        JLabel l3 = new JLabel("Delimiter for Lines in the TileMap");
+        lineDelimiterField = new JTextField(MapEditor.settings.getLineDelimiter());
+
+        JLabel l4 = new JLabel("Delimiter for Layers");
+        layerDelimiterField = new JTextField(MapEditor.settings.getLayerDelimiter());
 
         JLabel l0 = new JLabel("Editor Background Color");
 
@@ -134,6 +142,8 @@ public class SettingsFrame extends JFrame {
         button.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                MapEditor.settings.setLayerDelimiter(layerDelimiterField.getText());
+                MapEditor.settings.setLineDelimiter(lineDelimiterField.getText());
                 MapEditor.settings.setTileSize(Integer.parseInt(imageSizeField.getText()));
                 MapEditor.settings.setImageExtension(extensionField.getText());
                 MapEditor.settings.saveConfig();
@@ -158,13 +168,17 @@ public class SettingsFrame extends JFrame {
         panel.add(imageSizeField);
         panel.add(l2);
         panel.add(extensionField);
+        panel.add(l3);
+        panel.add(lineDelimiterField);
+        panel.add(l4);
+        panel.add(layerDelimiterField);
 
         panel.setLayout(new BoxLayout(panel, BoxLayout.PAGE_AXIS));
-        panel.setBounds(0,0, 600, 600);
+        panel.setBounds(0,0, 600, 800);
         this.add(panel);
 
         this.setLayout(null);
-        this.setSize(600, 600);
+        this.setSize(600, 800);
         this.setResizable(false);
         this.setTitle("Bambuu Settings");
         ImageIcon img = new ImageIcon("icon.png");
