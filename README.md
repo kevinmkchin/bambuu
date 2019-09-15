@@ -1,6 +1,8 @@
 # bambuu
 **Bambuu** TileMap Editor
 
+![icon](icon.png)
+
 ## Features
 - Quickly and easily create **tilemaps/levels** for **platformers, top-down shooters, etc**.
 - Use your own **custom image files** for the tiles.
