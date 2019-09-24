@@ -1,5 +1,6 @@
 # bambuu
 **Bambuu** TileMap Editor
+Standalone editor from https://github.com/kevinmkchin/rayjax-engine
 
 ![icon](icon.png)
 
