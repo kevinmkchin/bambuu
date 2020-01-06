@@ -7,95 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6673fbd-5ed7-41d5-af33-1e56e65bd8ab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/A.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/B.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/C.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/D.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/E.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/F.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/G.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/H.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/I.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/J.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/K.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/L.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/M.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/N.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/O.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/P.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/Q.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/R.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/S.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/T.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/U.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/V.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/W.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/X.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/Y.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/Z.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/color tiles backup/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/color tiles backup/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/color tiles backup/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/color tiles backup/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/color tiles backup/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/color tiles backup/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/color tiles backup/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/color tiles backup/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/color tiles backup/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/A.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/B.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/C.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/D.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/E.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/F.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/G.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/H.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/I.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/J.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/K.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/L.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/M.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/N.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/O.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/P.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/Q.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/R.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/S.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/T.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/U.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/V.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/W.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/X.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/Y.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/letter tiles backup/Z.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/platformer tiles backup/A.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/platformer tiles backup/B.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/platformer tiles backup/C.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/platformer tiles backup/D.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/platformer tiles backup/E.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/platformer tiles backup/F.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/platformer tiles backup/G.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/TILES/platformer tiles backup/H.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/bambuu.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/settings.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mapeditor/EditorPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mapeditor/EditorPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mapeditor/MapEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mapeditor/MapEditor.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -119,40 +33,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/mapeditor/MapEditor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="157" selection-start-line="157" selection-end-line="157" />
+            <state relative-caret-position="162">
+              <caret line="311" column="79" lean-forward="true" selection-start-line="311" selection-start-column="79" selection-end-line="311" selection-end-column="79" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#17063#17064#0" expanded="true" />
                 <element signature="e#17097#17098#0" expanded="true" />
+                <element signature="e#17157#17158#0" expanded="true" />
                 <element signature="e#17191#17192#0" expanded="true" />
+                <element signature="e#17587#17588#0" expanded="true" />
                 <element signature="e#17628#17629#0" expanded="true" />
+                <element signature="e#17665#17666#0" expanded="true" />
                 <element signature="e#17696#17697#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/engine/Level.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-460">
-              <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3281#3282#0" expanded="true" />
-                <element signature="e#3329#3330#0" expanded="true" />
-                <element signature="e#3377#3378#0" expanded="true" />
-                <element signature="e#3427#3428#0" expanded="true" />
-                <element signature="e#3473#3474#0" expanded="true" />
-                <element signature="e#3521#3522#0" expanded="true" />
-                <element signature="e#3771#3772#0" expanded="true" />
-                <element signature="e#3836#3837#0" expanded="true" />
-                <element signature="e#3911#3912#0" expanded="true" />
-                <element signature="e#3988#3989#0" expanded="true" />
-                <element signature="e#4063#4064#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -161,8 +56,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mapeditor/EditorPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="59" column="48" selection-start-line="59" selection-start-column="48" selection-end-line="59" selection-end-column="48" />
+            <state relative-caret-position="418">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+              <folding>
+                <element signature="e#340#341#0" expanded="true" />
+                <element signature="e#367#368#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/engine/Level.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3740#3741#0" expanded="true" />
+                <element signature="e#3771#3772#0" expanded="true" />
+                <element signature="e#3804#3805#0" expanded="true" />
+                <element signature="e#3836#3837#0" expanded="true" />
+                <element signature="e#3879#3880#0" expanded="true" />
+                <element signature="e#3911#3912#0" expanded="true" />
+                <element signature="e#3955#3956#0" expanded="true" />
+                <element signature="e#3988#3989#0" expanded="true" />
+                <element signature="e#4031#4032#0" expanded="true" />
+                <element signature="e#4063#4064#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -231,6 +152,23 @@
               <item name="bambuu" type="462c0819:PsiDirectoryNode" />
               <item name="out" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="bambuu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bambuu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bambuu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bambuu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="engine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bambuu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bambuu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mapeditor" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -242,7 +180,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CPSC 210 Repositories/M1-PizzaTopper-Starter" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../rip" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -301,6 +239,7 @@
       <workItem from="1568521730556" duration="18401000" />
       <workItem from="1568543862172" duration="131000" />
       <workItem from="1568580561261" duration="5919000" />
+      <workItem from="1578285407301" duration="241000" />
     </task>
     <task id="LOCAL-00001" summary="Release 1.1&#10;Support for non-square tilemaps&#10;Added line delimiters">
       <created>1568586260301</created>
@@ -313,7 +252,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24451000" />
+    <option name="totallyTimeSpent" value="24692000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -326,8 +265,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25973153" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -442,44 +382,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/engine/Level.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3740#3741#0" expanded="true" />
+            <element signature="e#3771#3772#0" expanded="true" />
+            <element signature="e#3804#3805#0" expanded="true" />
+            <element signature="e#3836#3837#0" expanded="true" />
+            <element signature="e#3879#3880#0" expanded="true" />
+            <element signature="e#3911#3912#0" expanded="true" />
+            <element signature="e#3955#3956#0" expanded="true" />
+            <element signature="e#3988#3989#0" expanded="true" />
+            <element signature="e#4031#4032#0" expanded="true" />
+            <element signature="e#4063#4064#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/mapeditor/EditorPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="59" column="48" selection-start-line="59" selection-start-column="48" selection-end-line="59" selection-end-column="48" />
+        <state relative-caret-position="418">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mapeditor/MapEditor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="157" selection-start-line="157" selection-end-line="157" />
+        <state relative-caret-position="162">
+          <caret line="311" column="79" lean-forward="true" selection-start-line="311" selection-start-column="79" selection-end-line="311" selection-end-column="79" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#17063#17064#0" expanded="true" />
             <element signature="e#17097#17098#0" expanded="true" />
+            <element signature="e#17157#17158#0" expanded="true" />
             <element signature="e#17191#17192#0" expanded="true" />
+            <element signature="e#17587#17588#0" expanded="true" />
             <element signature="e#17628#17629#0" expanded="true" />
+            <element signature="e#17665#17666#0" expanded="true" />
             <element signature="e#17696#17697#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/engine/Level.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-460">
-          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3281#3282#0" expanded="true" />
-            <element signature="e#3329#3330#0" expanded="true" />
-            <element signature="e#3377#3378#0" expanded="true" />
-            <element signature="e#3427#3428#0" expanded="true" />
-            <element signature="e#3473#3474#0" expanded="true" />
-            <element signature="e#3521#3522#0" expanded="true" />
-            <element signature="e#3771#3772#0" expanded="true" />
-            <element signature="e#3836#3837#0" expanded="true" />
-            <element signature="e#3911#3912#0" expanded="true" />
-            <element signature="e#3988#3989#0" expanded="true" />
-            <element signature="e#4063#4064#0" expanded="true" />
           </folding>
         </state>
       </provider>
