@@ -39,7 +39,8 @@ public class HowtoFrame extends JFrame {
                 "to the .bbuu map file.\n" +
                 "\n" +
                 "--- EDITOR ---\n" +
-                "Press Z to Undo" ;
+                "Press Z to Undo\n" +
+                "Press G to toggle grid";
 
         howto = new JTextPane();
         StyledDocument doc = howto.getStyledDocument();
@@ -47,13 +48,13 @@ public class HowtoFrame extends JFrame {
         StyleConstants.setAlignment(center, StyleConstants.ALIGN_CENTER);
         doc.setParagraphAttributes(0, doc.getLength(), center, false);
         howto.setText(content);
-        howto.setBounds(0,0,600,700);
+        howto.setBounds(0,0,600,750);
         howto.setFont(font1);
         howto.setEditable(false);
         this.add(howto);
 
         this.setLayout(null);
-        this.setSize(600, 700);
+        this.setSize(600, 750);
         this.setResizable(false);
         this.setTitle("How to use Bambuu");
         ImageIcon img = new ImageIcon("icon.png");

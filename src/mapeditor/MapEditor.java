@@ -26,7 +26,7 @@ public class MapEditor extends JFrame implements ActionListener, MouseMotionList
 
     public int winW = 1600;
     public int winH = 900;
-    public int editorW = 1300;
+    public int editorW = 1350;
     public int editorH = 800;
 
     public Color bgColor = Color.DARK_GRAY;
