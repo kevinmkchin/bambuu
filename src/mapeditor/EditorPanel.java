@@ -11,6 +11,7 @@ import java.awt.image.BufferedImage;
 
 public class EditorPanel extends JPanel implements KeyListener {
 
+    public boolean showGrid = false;
     private Level level;
     private Character[][] arrayForDisplay;
     private int tileSize;
@@ -50,6 +51,17 @@ public class EditorPanel extends JPanel implements KeyListener {
 
                     g.drawImage(image, j*tileSize, i*tileSize, tileSize, tileSize, null);
                 }
+            }
+        }
+
+
+        if(showGrid) {
+            g.setColor(Color.RED);
+            for (int i = 0; i < level.getMapWidth(); i++) {
+                g.drawLine(i * tileSize, 0, i * tileSize, frame.editorH);
+            }
+            for (int j = 0; j < level.getMapHeight(); j++) {
+                g.drawLine(0, j * tileSize, frame.editorW, j * tileSize);
             }
         }
 
@@ -98,6 +110,10 @@ public class EditorPanel extends JPanel implements KeyListener {
     public void keyPressed(KeyEvent e) {
         if(e.getKeyCode() == KeyEvent.VK_Z){
             frame.restoreLastState();
+        }
+        if(e.getKeyCode() == KeyEvent.VK_G){
+            showGrid = !showGrid;
+            repaint();
         }
     }
 
