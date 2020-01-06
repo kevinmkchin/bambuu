@@ -5,9 +5,11 @@ import engine.Texture;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 import java.awt.image.BufferedImage;
 
-public class EditorPanel extends JPanel {
+public class EditorPanel extends JPanel implements KeyListener {
 
     private Level level;
     private Character[][] arrayForDisplay;
@@ -16,6 +18,10 @@ public class EditorPanel extends JPanel {
 
     public EditorPanel(MapEditor god){
         frame = god;
+
+        this.setFocusable(true);
+        this.requestFocus();
+        addKeyListener(this);
     }
 
     //replaces the clicked tile with the selected character
@@ -81,5 +87,22 @@ public class EditorPanel extends JPanel {
 
     public void setTileSize(int tileSize) {
         this.tileSize = tileSize;
+    }
+
+    @Override
+    public void keyTyped(KeyEvent e) {
+
+    }
+
+    @Override
+    public void keyPressed(KeyEvent e) {
+        if(e.getKeyCode() == KeyEvent.VK_Z){
+            frame.restoreLastState();
+        }
+    }
+
+    @Override
+    public void keyReleased(KeyEvent e) {
+
     }
 }
