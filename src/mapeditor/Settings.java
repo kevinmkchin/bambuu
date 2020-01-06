@@ -21,9 +21,9 @@ public class Settings {
             BufferedWriter writer = new BufferedWriter(new FileWriter("settings.cfg"));
             writer.write(editorBackgroundColor.getRGB() + "`" +
                     tileSize + "`" +
-                    imageExtension + "`" +
-                    lineDelimiter + "`" +
-                    layerDelimiter);
+                    imageExtension.trim() + "`" +
+                    lineDelimiter.trim() + "`" +
+                    layerDelimiter.trim());
             writer.flush();
         } catch (IOException e) {
             e.printStackTrace();

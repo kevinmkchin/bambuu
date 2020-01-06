@@ -151,6 +151,8 @@ public class SettingsFrame extends JFrame {
                 MapEditor.settings.setTileSize(Integer.parseInt(imageSizeField.getText()));
                 MapEditor.settings.setImageExtension(extensionField.getText());
                 MapEditor.settings.saveConfig();
+
+                dispose();
             }
         });
 
