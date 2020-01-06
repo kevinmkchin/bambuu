@@ -4,6 +4,7 @@ import engine.Level;
 import engine.Texture;
 
 import javax.swing.*;
+import javax.swing.filechooser.FileNameExtensionFilter;
 import java.awt.*;
 import java.awt.event.*;
 import java.io.BufferedWriter;
@@ -420,9 +421,12 @@ public class MapEditor extends JFrame implements ActionListener, MouseMotionList
 
     //sets level
     private void loadFile(){
+        fc.setCurrentDirectory(new File(settings.loadLastDirectory()));
         int returnVal = fc.showOpenDialog(MapEditor.this);
         if (returnVal == JFileChooser.APPROVE_OPTION) {
             File file = fc.getSelectedFile();
+
+            settings.saveLastDirectory(fc.getCurrentDirectory().toString());
 
 //            String extension = getExtension(file);
 //            if(!extension.equals("bbuu")){
@@ -465,11 +469,24 @@ public class MapEditor extends JFrame implements ActionListener, MouseMotionList
             mapData += settings.getLayerDelimiter();
             mapData = writeFromArray(mapData, ceilArrayToSave);
         }
+        String fileExtensionDesc = "bambuu TileMap Data (.bbuu)";
+
+        fc.setCurrentDirectory(new File(settings.loadLastDirectory()));
 
         fc.setDialogTitle("Save bambuu map as... (extension must be .bbuu or .txt)");
+        fc.setFileFilter(new FileNameExtensionFilter(fileExtensionDesc, "bbuu"));
         int userSelection = fc.showSaveDialog(this);
         if(userSelection == JFileChooser.APPROVE_OPTION){
-            File fileToSave = fc.getSelectedFile();
+            String str = fc.getSelectedFile().toString();
+            if(fc.getFileFilter().getDescription().equals(fileExtensionDesc)){
+                if(!str.endsWith(".bbuu")){
+                    str += ".bbuu";
+                }
+            }
+            File fileToSave = new File(str);
+            settings.saveLastDirectory(fc.getCurrentDirectory().toString());
+            System.out.println(fc.getCurrentDirectory().toString());
+
             try {
                 BufferedWriter writer = new BufferedWriter(new FileWriter(fileToSave));
                 writer.write(mapData);

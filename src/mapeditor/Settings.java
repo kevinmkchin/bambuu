@@ -10,6 +10,7 @@ public class Settings {
     private Color editorBackgroundColor;
     private String layerDelimiter;
     private String lineDelimiter;
+    private String lastDirectory = "";
 
     public Settings(){
         loadConfig();
@@ -23,7 +24,8 @@ public class Settings {
                     tileSize + "`" +
                     imageExtension.trim() + "`" +
                     lineDelimiter.trim() + "`" +
-                    layerDelimiter.trim());
+                    layerDelimiter.trim() + "`" +
+                    lastDirectory);
             writer.flush();
         } catch (IOException e) {
             e.printStackTrace();
@@ -42,6 +44,7 @@ public class Settings {
             imageExtension = dataArray[2];
             lineDelimiter = dataArray[3];
             layerDelimiter = dataArray[4];
+            lastDirectory = dataArray[5];
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -51,6 +54,15 @@ public class Settings {
 
     }
 
+    public void saveLastDirectory(String dir){
+        lastDirectory = dir;
+        saveConfig();
+    }
+
+    public String loadLastDirectory(){
+        loadConfig();
+        return lastDirectory;
+    }
 
     public int getTileSize() {
         return tileSize;
