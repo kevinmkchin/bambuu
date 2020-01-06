@@ -8,6 +8,10 @@ import java.awt.event.ActionListener;
 public class SettingsFrame extends JFrame {
 
     JPanel panel = new JPanel();
+    JPanel savePanel = new JPanel();
+    JPanel colorPanel = new JPanel();
+    JPanel tilePanel = new JPanel();
+    JPanel exportPanel = new JPanel();
 
     JTextField imageSizeField;
     JTextField extensionField;
@@ -124,19 +128,19 @@ public class SettingsFrame extends JFrame {
             }
         });
 
-        JLabel l1 = new JLabel("Size of Tile Image");
+        JLabel l1 = new JLabel("Size of Custom Tile Image File");
         imageSizeField = new JTextField(String.valueOf(MapEditor.settings.getTileSize()));
 
-        JLabel l2 = new JLabel("Extension of Tile Image");
+        JLabel l2 = new JLabel("Extension of Custom Tile Image File");
         extensionField = new JTextField(MapEditor.settings.getImageExtension());
 
-        JLabel l3 = new JLabel("Delimiter for Lines in the TileMap");
+        JLabel l3 = new JLabel("Delimiter for Rows in Output Level Data");
         lineDelimiterField = new JTextField(MapEditor.settings.getLineDelimiter());
 
-        JLabel l4 = new JLabel("Delimiter for Layers");
+        JLabel l4 = new JLabel("Delimiter for Layers in Output Level Data");
         layerDelimiterField = new JTextField(MapEditor.settings.getLayerDelimiter());
 
-        JLabel l0 = new JLabel("Editor Background Color");
+        JLabel l0 = new JLabel("EDITOR COLOR");
 
         JButton button = new JButton("Save Configurations");
         button.addActionListener(new ActionListener() {
@@ -150,35 +154,47 @@ public class SettingsFrame extends JFrame {
             }
         });
 
-        JLabel label = new JLabel("Restart the Application after Saving!");
-        panel.add(label);
-        panel.add(button);
-        panel.add(l0);
-        panel.add(white);
-        panel.add(black);
-        panel.add(lightred);
-        panel.add(darkred);
-        panel.add(lightblue);
-        panel.add(darkblue);
-        panel.add(lightgray);
-        panel.add(darkgray);
-        panel.add(lightgreen);
-        panel.add(darkgreen);
-        panel.add(l1);
-        panel.add(imageSizeField);
-        panel.add(l2);
-        panel.add(extensionField);
-        panel.add(l3);
-        panel.add(lineDelimiterField);
-        panel.add(l4);
-        panel.add(layerDelimiterField);
+        JLabel label = new JLabel("RESTART the Application after Saving!");
+        savePanel.add(label);
+        savePanel.add(button);
+        colorPanel.add(l0);
+        colorPanel.add(white);
+        colorPanel.add(black);
+        colorPanel.add(lightred);
+        colorPanel.add(darkred);
+        colorPanel.add(lightblue);
+        colorPanel.add(darkblue);
+        colorPanel.add(lightgray);
+        colorPanel.add(darkgray);
+        colorPanel.add(lightgreen);
+        colorPanel.add(darkgreen);
+        tilePanel.add(l1);
+        tilePanel.add(imageSizeField);
+        tilePanel.add(l2);
+        tilePanel.add(extensionField);
+        exportPanel.add(l3);
+        exportPanel.add(lineDelimiterField);
+        exportPanel.add(l4);
+        exportPanel.add(layerDelimiterField);
 
-        panel.setLayout(new BoxLayout(panel, BoxLayout.PAGE_AXIS));
-        panel.setBounds(0,0, 600, 800);
+
+
+        panel.add(colorPanel);
+        //colorPanel.setLayout(new BoxLayout(colorPanel, BoxLayout.LINE_AXIS));
+        colorPanel.setLayout(new GridLayout(4,3));
+        panel.add(tilePanel);
+        tilePanel.setLayout(new BoxLayout(tilePanel, BoxLayout.PAGE_AXIS));
+        panel.add(exportPanel);
+        exportPanel.setLayout(new BoxLayout(exportPanel, BoxLayout.PAGE_AXIS));
+        panel.add(savePanel);
+
+        //panel.setLayout(new BoxLayout(panel, BoxLayout.PAGE_AXIS));
+        panel.setLayout(new GridLayout(4,1, 0, 40));
+        panel.setBounds(0,0, 400, 500);
         this.add(panel);
 
         this.setLayout(null);
-        this.setSize(600, 800);
+        this.setSize(400, 480);
         this.setResizable(false);
         this.setTitle("Bambuu Settings");
         ImageIcon img = new ImageIcon("icon.png");
