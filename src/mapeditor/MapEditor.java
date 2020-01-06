@@ -23,7 +23,7 @@ public class MapEditor extends JFrame implements ActionListener, MouseMotionList
 
     public int winW = 1600;
     public int winH = 900;
-    public int editorW = 800;
+    public int editorW = 1300;
     public int editorH = 800;
 
     public Color bgColor = Color.DARK_GRAY;
@@ -163,7 +163,7 @@ public class MapEditor extends JFrame implements ActionListener, MouseMotionList
     private void initializeGUI(){
 
         // === Panels ===
-        editorPanel = new EditorPanel(editorW, this);
+        editorPanel = new EditorPanel(this);
         editorPanel.setSize(editorW,editorH);
 
         toolPanel = new JPanel();
@@ -280,7 +280,7 @@ public class MapEditor extends JFrame implements ActionListener, MouseMotionList
         charList.setFont(font1);
         charList.setSelectedIndex(0);
         JScrollPane charListScroller = new JScrollPane(charList);
-        charListScroller.setPreferredSize(new Dimension(500,700));
+        charListScroller.setPreferredSize(new Dimension(200,700));
         texturePanel.add(charListScroller);
 
         fillScreenButton = new JButton("Fill Map with Texture");
@@ -307,11 +307,11 @@ public class MapEditor extends JFrame implements ActionListener, MouseMotionList
         for(int i=0; i<editorPanel.getLevel().getMapWidth(); i++){
             for(int j=0; j<editorPanel.getLevel().getMapHeight(); j++){
                 if(wallEditing) {
-                    editorPanel.getLevel().getWallArray()[i][j] = c.charAt(0);
+                    editorPanel.getLevel().getWallArray()[j][i] = c.charAt(0);
                 }else if(floorEditing){
-                    editorPanel.getLevel().getFloorArray()[i][j] = c.charAt(0);
+                    editorPanel.getLevel().getFloorArray()[j][i] = c.charAt(0);
                 }else if(ceilEditing){
-                    editorPanel.getLevel().getCeilArray()[i][j] = c.charAt(0);
+                    editorPanel.getLevel().getCeilArray()[j][i] = c.charAt(0);
                 }
             }
         }

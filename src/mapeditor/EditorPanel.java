@@ -11,12 +11,10 @@ public class EditorPanel extends JPanel {
 
     private Level level;
     private Character[][] arrayForDisplay;
-    private int editorW;
     private int tileSize;
     MapEditor frame;
 
-    public EditorPanel(int editorW, MapEditor god){
-        this.editorW = editorW;
+    public EditorPanel(MapEditor god){
         frame = god;
     }
 
@@ -49,6 +47,13 @@ public class EditorPanel extends JPanel {
             }
         }
 
+        g.setColor(frame.bgColor);
+        g.fillRect(0, level.getMapHeight() * tileSize,
+                frame.editorW, frame.editorH - level.getMapHeight() * tileSize);
+        g.fillRect(level.getMapWidth() * tileSize,0,
+                frame.editorW - level.getMapWidth() * tileSize,frame.editorH);
+
+
     }
 
     public Level getLevel() {
@@ -57,7 +62,8 @@ public class EditorPanel extends JPanel {
 
     public void setLevel(Level level) {
         this.level = level;
-        tileSize = editorW / level.getMapWidth(); //rounds down cuz integer
+        tileSize = Math.min (frame.editorW / level.getMapWidth(),
+                frame.editorH / level.getMapHeight()); //rounds down cuz integer
         //for zoom, just double tileSize
     }
 
