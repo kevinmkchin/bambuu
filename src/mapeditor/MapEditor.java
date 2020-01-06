@@ -343,16 +343,34 @@ public class MapEditor extends JFrame implements ActionListener, MouseMotionList
         }
 
         if(e.getSource() == newFile){
-            String width = JOptionPane.showInputDialog(this,
-                    "Enter the width of the new map",
-                    "New Map (width)", JOptionPane.PLAIN_MESSAGE);
-            int w = Integer.parseInt(width);
-            String height = JOptionPane.showInputDialog(this,
-                    "Enter the height of the new map",
-                    "New Map (height)", JOptionPane.PLAIN_MESSAGE);
-            int h = Integer.parseInt(height);
+//            String width = JOptionPane.showInputDialog(this,
+//                    "Enter the width of the new map",
+//                    "New Map (width)", JOptionPane.PLAIN_MESSAGE);
+//            int w = Integer.parseInt(width);
+//            String height = JOptionPane.showInputDialog(this,
+//                    "Enter the height of the new map",
+//                    "New Map (height)", JOptionPane.PLAIN_MESSAGE);
+//            int h = Integer.parseInt(height);
 
-            newFile(h, w);
+            JTextField wField = new JTextField(3);
+            JTextField hField = new JTextField(3);
+
+            JPanel newMapPanel = new JPanel();
+            newMapPanel.add(new JLabel("Width:"));
+            newMapPanel.add(wField);
+            newMapPanel.add(Box.createHorizontalStrut(10));
+            newMapPanel.add(new JLabel("Height:"));
+            newMapPanel.add(hField);
+
+            int result = JOptionPane.showConfirmDialog(null, newMapPanel,
+                    "New Map Width & Height", JOptionPane.OK_CANCEL_OPTION);
+            if (result == JOptionPane.OK_OPTION) {
+                int w = Integer.parseInt(wField.getText());
+                int h = Integer.parseInt(hField.getText());
+
+                newFile(h, w);
+            }
+
         }
         if(e.getSource() == saveFile){
             saveFile();
