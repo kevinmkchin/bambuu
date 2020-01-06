@@ -36,7 +36,10 @@ public class HowtoFrame extends JFrame {
                 "--- LAYERS ---\n" +
                 "Select which layer to view and edit.\n" +
                 "You must select which layers to save\n" +
-                "to the .bbuu map file.";
+                "to the .bbuu map file.\n" +
+                "\n" +
+                "--- EDITOR ---\n" +
+                "Press Z to Undo" ;
 
         howto = new JTextPane();
         StyledDocument doc = howto.getStyledDocument();
@@ -44,13 +47,13 @@ public class HowtoFrame extends JFrame {
         StyleConstants.setAlignment(center, StyleConstants.ALIGN_CENTER);
         doc.setParagraphAttributes(0, doc.getLength(), center, false);
         howto.setText(content);
-        howto.setBounds(0,0,600,600);
+        howto.setBounds(0,0,600,700);
         howto.setFont(font1);
         howto.setEditable(false);
         this.add(howto);
 
         this.setLayout(null);
-        this.setSize(600, 600);
+        this.setSize(600, 700);
         this.setResizable(false);
         this.setTitle("How to use Bambuu");
         ImageIcon img = new ImageIcon("icon.png");

@@ -13,6 +13,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
+import java.util.LinkedList;
 import java.util.Vector;
 
 import static java.awt.Font.PLAIN;
@@ -21,6 +22,7 @@ public class MapEditor extends JFrame implements ActionListener, MouseMotionList
 
     public static Settings settings;
     private Level level;
+    private LinkedList<Character[][]> levelHistory = new LinkedList<>();
 
     public int winW = 1600;
     public int winH = 900;
@@ -69,9 +71,9 @@ public class MapEditor extends JFrame implements ActionListener, MouseMotionList
         @Override
         public String toString() {
             if(texture == null){
-                return "Tile: " + character + " | " + "empty";
+                return " " + character + " | " + "empty";
             }else {
-                return "Tile: " + character + " | " + texture.toString();
+                return " " + character + " | " + texture.toString();
             }
         }
     }
@@ -281,7 +283,7 @@ public class MapEditor extends JFrame implements ActionListener, MouseMotionList
         charList.setFont(font1);
         charList.setSelectedIndex(0);
         JScrollPane charListScroller = new JScrollPane(charList);
-        charListScroller.setPreferredSize(new Dimension(200,700));
+        charListScroller.setPreferredSize(new Dimension(150,700));
         texturePanel.add(charListScroller);
 
         fillScreenButton = new JButton("Fill Map with Texture");
@@ -328,30 +330,25 @@ public class MapEditor extends JFrame implements ActionListener, MouseMotionList
 
         //sets wallEditing, floorEditing, ceilEditing true or false
         if(e.getSource() == wallEdit){
+            clearLevelHistory();
             wallEditing = true;
             floorEditing = false;
             ceilEditing = false;
         }
         if(e.getSource() == floorEdit){
+            clearLevelHistory();
             wallEditing = false;
             floorEditing = true;
             ceilEditing = false;
         }
         if(e.getSource() == ceilEdit){
+            clearLevelHistory();
             wallEditing = false;
             floorEditing = false;
             ceilEditing = true;
         }
 
         if(e.getSource() == newFile){
-//            String width = JOptionPane.showInputDialog(this,
-//                    "Enter the width of the new map",
-//                    "New Map (width)", JOptionPane.PLAIN_MESSAGE);
-//            int w = Integer.parseInt(width);
-//            String height = JOptionPane.showInputDialog(this,
-//                    "Enter the height of the new map",
-//                    "New Map (height)", JOptionPane.PLAIN_MESSAGE);
-//            int h = Integer.parseInt(height);
 
             JTextField wField = new JTextField(3);
             JTextField hField = new JTextField(3);
@@ -417,6 +414,8 @@ public class MapEditor extends JFrame implements ActionListener, MouseMotionList
     //new empty level
     private void newFile(int w, int h){
         level = new Level(w, h);
+        clearLevelHistory();
+        storeLevelState();
     }
 
     //sets level
@@ -436,6 +435,8 @@ public class MapEditor extends JFrame implements ActionListener, MouseMotionList
 
 
             level = new Level(file);
+            clearLevelHistory();
+            storeLevelState();
             System.out.println("Loaded: " + file.getName());
 
         }
@@ -516,6 +517,49 @@ public class MapEditor extends JFrame implements ActionListener, MouseMotionList
         update();
     }
 
+    private void clearLevelHistory(){
+        levelHistory.clear();
+    }
+
+    private void storeLevelState(){
+        Character[][] fefae = new Character[level.getMapHeight()][level.getMapWidth()];
+        for(int i=0; i<level.getMapHeight(); i++){
+            for(int j=0; j<level.getMapWidth(); j++){
+                if(wallEditing){
+                    fefae[i][j] = level.getWallArray()[i][j];
+                }else if(floorEditing){
+                    fefae[i][j] = level.getFloorArray()[i][j];
+                }else if(ceilEditing){
+                    fefae[i][j] = level.getCeilArray()[i][j];
+                }
+            }
+        }
+        levelHistory.addFirst(fefae);
+    }
+
+    private Character[][] getLastLevelState(){
+        Character[][] lastState = null;
+        try {
+            lastState = levelHistory.get(1);
+            levelHistory.removeFirst();
+        } catch (IndexOutOfBoundsException e){
+            JOptionPane.showMessageDialog(this, "No further history.");
+        }
+        return lastState;
+    }
+
+    public void restoreLastState(){
+        if(wallEditing){
+            level.setWallArray(getLastLevelState());
+        }else if(floorEditing){
+            level.setFloorArray(getLastLevelState());
+        }else if(ceilEditing){
+            level.setCeilArray(getLastLevelState());
+        }
+        update();
+    }
+
+
     @Override
     public void mousePressed(MouseEvent e) {
         drawTileAtMouse(e);
@@ -533,7 +577,7 @@ public class MapEditor extends JFrame implements ActionListener, MouseMotionList
 
     @Override
     public void mouseReleased(MouseEvent e) {
-
+        storeLevelState();
     }
 
     @Override
@@ -548,7 +592,8 @@ public class MapEditor extends JFrame implements ActionListener, MouseMotionList
 
     @Override
     public void mouseMoved(MouseEvent e) {
-
+        editorPanel.setFocusable(true);
+        editorPanel.requestFocus();
     }
 
     public HashMap<String, Texture> getMasterCharacterMap() {

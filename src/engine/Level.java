@@ -117,6 +117,18 @@ public class Level {
         return mapHeight;
     }
 
+    public void setWallArray(Character[][] wallArray) {
+        this.wallArray = wallArray;
+    }
+
+    public void setFloorArray(Character[][] floorArray) {
+        this.floorArray = floorArray;
+    }
+
+    public void setCeilArray(Character[][] ceilArray) {
+        this.ceilArray = ceilArray;
+    }
+
     public Character[][] getWallArray() {
         return wallArray;
     }
