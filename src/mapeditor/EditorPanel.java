@@ -14,7 +14,9 @@ public class EditorPanel extends JPanel implements KeyListener {
     public boolean showGrid = false;
     private Level level;
     private Character[][] arrayForDisplay;
-    private int tileSize;
+    private int tileSize = 0;
+    private int xOffset;
+    private int yOffset;
     MapEditor frame;
 
     public EditorPanel(MapEditor god){
@@ -27,8 +29,8 @@ public class EditorPanel extends JPanel implements KeyListener {
 
     //replaces the clicked tile with the selected character
     public void drawTile(String character, int x, int y){
-        int i = x / tileSize;
-        int j = y / tileSize;
+        int i = (x - xOffset) / tileSize;
+        int j = (y - yOffset) / tileSize;
         arrayForDisplay[j][i] = character.charAt(0);
     }
 
@@ -49,7 +51,8 @@ public class EditorPanel extends JPanel implements KeyListener {
 
                     BufferedImage image = matchingTexture.getImage();
 
-                    g.drawImage(image, j*tileSize, i*tileSize, tileSize, tileSize, null);
+                    g.drawImage(image, j*tileSize + xOffset, i*tileSize + yOffset,
+                            tileSize, tileSize, null);
                 }
             }
         }
@@ -58,10 +61,16 @@ public class EditorPanel extends JPanel implements KeyListener {
         if(showGrid) {
             g.setColor(Color.RED);
             for (int i = 0; i < level.getMapWidth(); i++) {
-                g.drawLine(i * tileSize, 0, i * tileSize, frame.editorH);
+                g.drawLine(i * tileSize + xOffset,
+                        0 + yOffset,
+                        i * tileSize + xOffset,
+                        level.getMapHeight() * tileSize + yOffset);
             }
             for (int j = 0; j < level.getMapHeight(); j++) {
-                g.drawLine(0, j * tileSize, frame.editorW, j * tileSize);
+                g.drawLine(0 + xOffset,
+                        j * tileSize + yOffset,
+                        level.getMapWidth() * tileSize + xOffset,
+                        j * tileSize + yOffset);
             }
         }
 
@@ -80,9 +89,17 @@ public class EditorPanel extends JPanel implements KeyListener {
 
     public void setLevel(Level level) {
         this.level = level;
-        tileSize = Math.min (frame.editorW / level.getMapWidth(),
+
+        int defaultTileSize = Math.min (frame.editorW / level.getMapWidth(),
                 frame.editorH / level.getMapHeight()); //rounds down cuz integer
         //for zoom, just double tileSize
+
+        if(tileSize == 0){
+            tileSize = defaultTileSize;
+        }
+
+        xOffset = 0;
+        yOffset = 0;
     }
 
     public Character[][] getArrayForDisplay() {
@@ -113,6 +130,37 @@ public class EditorPanel extends JPanel implements KeyListener {
         }
         if(e.getKeyCode() == KeyEvent.VK_G){
             showGrid = !showGrid;
+            repaint();
+        }
+        if(e.getKeyCode() == KeyEvent.VK_Q){
+            tileSize += tileSize * 0.2;
+            repaint();
+        }
+        if(e.getKeyCode() == KeyEvent.VK_E){
+            tileSize -= tileSize * 0.2;
+            repaint();
+        }
+        if(e.getKeyCode() == KeyEvent.VK_A){
+            xOffset += tileSize ;//* 0.1;
+            repaint();
+        }
+        if(e.getKeyCode() == KeyEvent.VK_D){
+            xOffset -= tileSize;// * 0.1;
+            repaint();
+        }
+        if(e.getKeyCode() == KeyEvent.VK_W){
+            yOffset += tileSize;// * 0.1;
+            repaint();
+        }
+        if(e.getKeyCode() == KeyEvent.VK_S){
+            yOffset -= tileSize;// * 0.1;
+            repaint();
+        }
+        if(e.getKeyCode() == KeyEvent.VK_R){
+            tileSize = Math.min (frame.editorW / level.getMapWidth(),
+                    frame.editorH / level.getMapHeight());
+            xOffset = 0;
+            yOffset = 0;
             repaint();
         }
     }
