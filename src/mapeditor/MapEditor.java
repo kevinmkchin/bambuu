@@ -4,6 +4,8 @@ import engine.Level;
 import engine.Texture;
 
 import javax.swing.*;
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.ListSelectionListener;
 import javax.swing.filechooser.FileNameExtensionFilter;
 import java.awt.*;
 import java.awt.event.*;
@@ -24,10 +26,10 @@ public class MapEditor extends JFrame implements ActionListener, MouseMotionList
     private Level level;
     private LinkedList<Character[][]> levelHistory = new LinkedList<>();
 
-    public int winW = 1600;
-    public int winH = 900;
-    public int editorW = 1350;
-    public int editorH = 800;
+    public int winW = 1366;
+    public int winH = 768;
+    public int editorW = 1100;
+    public int editorH = 668;
 
     public Color bgColor = Color.DARK_GRAY;
     public Color textColor = Color.WHITE;
@@ -42,6 +44,9 @@ public class MapEditor extends JFrame implements ActionListener, MouseMotionList
 
     private LinkedHashMap<String, Texture> masterCharacterMap;
     private JList charList;
+    public JList getCharList() {
+        return charList;
+    }
     private EditorPanel editorPanel;
     private JPanel toolPanel, bottomPanel, zoomPanel, texturePanel;
     private JLabel tpLabel;
@@ -182,7 +187,7 @@ public class MapEditor extends JFrame implements ActionListener, MouseMotionList
         zoomPanel.setBackground(bgColor);
         zoomPanel.setLayout(new GridLayout(3, 2));
 
-        texturePanel = new JPanel();
+        texturePanel = new TexturePanel(this);
         texturePanel.setBackground(bgColor);
 
         // === Radio Buttons ===
@@ -282,13 +287,21 @@ public class MapEditor extends JFrame implements ActionListener, MouseMotionList
         charList = new JList(textureEntries);
         charList.setFont(font1);
         charList.setSelectedIndex(0);
+        charList.addListSelectionListener(new ListSelectionListener() {
+            @Override
+            public void valueChanged(ListSelectionEvent e) {
+                repaint();
+            }
+        });
         JScrollPane charListScroller = new JScrollPane(charList);
-        charListScroller.setPreferredSize(new Dimension(150,700));
+        charListScroller.setPreferredSize(new Dimension(150,440));
         texturePanel.add(charListScroller);
 
         fillScreenButton = new JButton("Fill Map with Texture");
         fillScreenButton.addActionListener(this);
         texturePanel.add(fillScreenButton);
+
+
 
     }
 
@@ -322,6 +335,7 @@ public class MapEditor extends JFrame implements ActionListener, MouseMotionList
 
     @Override
     public void actionPerformed(ActionEvent e) {
+
         if(e.getSource() == fillScreenButton){
             TextureEntry selectedEntry = (TextureEntry) charList.getSelectedValue();
             String c = selectedEntry.getCharacter();
@@ -389,6 +403,7 @@ public class MapEditor extends JFrame implements ActionListener, MouseMotionList
     }
 
     public void update(){
+
         if(wallEditing){
             editorPanel.setLevel(level);
             editorPanel.setArrayForDisplay(level.getWallArray());
