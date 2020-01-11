@@ -40,7 +40,10 @@ public class HowtoFrame extends JFrame {
                 "\n" +
                 "--- EDITOR ---\n" +
                 "Press Z to Undo\n" +
-                "Press G to toggle grid";
+                "Press G to toggle grid\n" +
+                "W A S D to move editor view around\n" +
+                "Q E to change zoom\n" +
+                "R to reset to default editor view";
 
         howto = new JTextPane();
         StyledDocument doc = howto.getStyledDocument();
@@ -48,13 +51,13 @@ public class HowtoFrame extends JFrame {
         StyleConstants.setAlignment(center, StyleConstants.ALIGN_CENTER);
         doc.setParagraphAttributes(0, doc.getLength(), center, false);
         howto.setText(content);
-        howto.setBounds(0,0,600,750);
+        howto.setBounds(0,0,600,800);
         howto.setFont(font1);
         howto.setEditable(false);
         this.add(howto);
 
         this.setLayout(null);
-        this.setSize(600, 750);
+        this.setSize(600, 800);
         this.setResizable(false);
         this.setTitle("How to use Bambuu");
         ImageIcon img = new ImageIcon("icon.png");

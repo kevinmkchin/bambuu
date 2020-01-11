@@ -404,13 +404,13 @@ public class MapEditor extends JFrame implements ActionListener, MouseMotionList
 
     public void update(){
 
-        if(wallEditing){
+        if (wallEditing) {
             editorPanel.setLevel(level);
             editorPanel.setArrayForDisplay(level.getWallArray());
-        }else if(floorEditing){
+        } else if (floorEditing) {
             editorPanel.setLevel(level);
             editorPanel.setArrayForDisplay(level.getFloorArray());
-        }else if(ceilEditing){
+        } else if (ceilEditing) {
             editorPanel.setLevel(level);
             editorPanel.setArrayForDisplay(level.getCeilArray());
         }
@@ -428,6 +428,7 @@ public class MapEditor extends JFrame implements ActionListener, MouseMotionList
 
     //new empty level
     private void newFile(int w, int h){
+        editorPanel.setTileSize(0);
         level = new Level(w, h);
         clearLevelHistory();
         storeLevelState();
@@ -607,7 +608,7 @@ public class MapEditor extends JFrame implements ActionListener, MouseMotionList
 
     @Override
     public void mouseMoved(MouseEvent e) {
-        editorPanel.setFocusable(true);
+        editorPanel.setFocusable(true); //this is the jankiest way of doing this but oh well
         editorPanel.requestFocus();
     }
 
