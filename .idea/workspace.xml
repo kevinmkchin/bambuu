@@ -8,10 +8,10 @@
   <component name="ChangeListManager">
     <list default="true" id="d6673fbd-5ed7-41d5-af33-1e56e65bd8ab" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/bambuu.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/bambuu_jar/bambuu.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bambuu_jar/settings.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/bambuu_jar/settings.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bambuu/mapeditor/MapEditor$TextureEntry.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bambuu/mapeditor/MapEditor$TextureEntry.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/bambuu/mapeditor/MapEditor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bambuu/mapeditor/MapEditor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/settings.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mapeditor/EditorPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mapeditor/EditorPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mapeditor/HowtoFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mapeditor/HowtoFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mapeditor/MapEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mapeditor/MapEditor.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -39,58 +39,48 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mapeditor/MapEditor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8350">
-              <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+            <state relative-caret-position="142">
+              <caret line="296" column="62" selection-start-line="296" selection-start-column="62" selection-end-line="296" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1397#1398#0" expanded="true" />
+                <element signature="e#1428#1429#0" expanded="true" />
                 <element signature="e#1958#1959#0" expanded="true" />
                 <element signature="e#1998#1999#0" expanded="true" />
                 <element signature="e#2037#2038#0" expanded="true" />
                 <element signature="e#2075#2076#0" expanded="true" />
+                <element signature="e#10840#11002#0" expanded="true" />
+                <element signature="e#11001#11002#0" expanded="true" />
                 <element signature="e#14461#14462#0" expanded="true" />
                 <element signature="e#14539#14540#0" expanded="true" />
-                <element signature="e#14573#14574#0" expanded="true" />
-                <element signature="e#14598#14599#0" expanded="true" />
-                <element signature="e#18433#18434#0" expanded="true" />
-                <element signature="e#18469#18470#0" expanded="true" />
-                <element signature="e#19812#19813#0" expanded="true" />
-                <element signature="e#19846#19847#0" expanded="true" />
-                <element signature="e#19906#19907#0" expanded="true" />
-                <element signature="e#19940#19941#0" expanded="true" />
-                <element signature="e#20068#20069#0" expanded="true" />
-                <element signature="e#20101#20102#0" expanded="true" />
-                <element signature="e#20437#20438#0" expanded="true" />
-                <element signature="e#20478#20479#0" expanded="true" />
-                <element signature="e#20515#20516#0" expanded="true" />
-                <element signature="e#20546#20547#0" expanded="true" />
+                <element signature="e#14575#14576#0" expanded="true" />
+                <element signature="e#14600#14601#0" expanded="true" />
+                <element signature="e#18435#18436#0" expanded="true" />
+                <element signature="e#18471#18472#0" expanded="true" />
+                <element signature="e#19815#19816#0" expanded="true" />
+                <element signature="e#19849#19850#0" expanded="true" />
+                <element signature="e#19908#19909#0" expanded="true" />
+                <element signature="e#19942#19943#0" expanded="true" />
+                <element signature="e#20070#20071#0" expanded="true" />
+                <element signature="e#20103#20104#0" expanded="true" />
+                <element signature="e#20439#20440#0" expanded="true" />
+                <element signature="e#20480#20481#0" expanded="true" />
+                <element signature="e#20517#20518#0" expanded="true" />
+                <element signature="e#20548#20549#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/mapeditor/EditorPanel.java">
+        <entry file="file://$PROJECT_DIR$/src/mapeditor/TexturePanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
-              <folding>
-                <element signature="e#2374#2375#0" expanded="true" />
-                <element signature="e#2724#2725#0" expanded="true" />
-                <element signature="e#2847#2848#0" expanded="true" />
-                <element signature="e#2910#2911#0" expanded="true" />
-                <element signature="e#2995#2996#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mapeditor/HowtoFrame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="56" column="28" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
+            <state relative-caret-position="186">
+              <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#164#165#0" expanded="true" />
+                <element signature="e#193#194#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -107,7 +97,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>new JF</find>
       <find>jframe</find>
       <find>Main</find>
       <find>TextureEntry</find>
@@ -129,6 +118,15 @@
       <find>layer</find>
       <find>floor</find>
       <find>opt</find>
+      <find>scroll</find>
+      <find>select</find>
+      <find>textureentry</find>
+      <find>update</find>
+      <find>canvas</find>
+      <find>editor</find>
+      <find>texturepane</find>
+      <find>repaint</find>
+      <find>charlist</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -145,9 +143,10 @@
         <option value="$PROJECT_DIR$/src/mapeditor/Settings.java" />
         <option value="$PROJECT_DIR$/settings.cfg" />
         <option value="$PROJECT_DIR$/src/engine/Level.java" />
-        <option value="$PROJECT_DIR$/src/mapeditor/MapEditor.java" />
-        <option value="$PROJECT_DIR$/src/mapeditor/EditorPanel.java" />
         <option value="$PROJECT_DIR$/src/mapeditor/HowtoFrame.java" />
+        <option value="$PROJECT_DIR$/src/mapeditor/EditorPanel.java" />
+        <option value="$PROJECT_DIR$/src/mapeditor/MapEditor.java" />
+        <option value="$PROJECT_DIR$/src/mapeditor/TexturePanel.java" />
       </list>
     </option>
   </component>
@@ -161,12 +160,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="bambuu-git" type="b2602c69:ProjectViewProjectNode" />
               <item name="bambuu-git" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bambuu-git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bambuu-git" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bambuu-git" type="b2602c69:ProjectViewProjectNode" />
@@ -189,8 +195,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -258,6 +262,9 @@
       <workItem from="1578285407301" duration="241000" />
       <workItem from="1578285776592" duration="11654000" />
       <workItem from="1578297481704" duration="722000" />
+      <workItem from="1578298263365" duration="327000" />
+      <workItem from="1578637236465" duration="54000" />
+      <workItem from="1578697835979" duration="3064000" />
     </task>
     <task id="LOCAL-00001" summary="Release 1.1&#10;Support for non-square tilemaps&#10;Added line delimiters">
       <created>1568586260301</created>
@@ -270,7 +277,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37068000" />
+    <option name="totallyTimeSpent" value="40513000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -283,16 +290,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21208054" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22080536" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="simpleUML" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -345,13 +353,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="8" column="65" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/engine/Texture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -454,36 +455,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mapeditor/MapEditor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8350">
-          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1958#1959#0" expanded="true" />
-            <element signature="e#1998#1999#0" expanded="true" />
-            <element signature="e#2037#2038#0" expanded="true" />
-            <element signature="e#2075#2076#0" expanded="true" />
-            <element signature="e#14461#14462#0" expanded="true" />
-            <element signature="e#14539#14540#0" expanded="true" />
-            <element signature="e#14573#14574#0" expanded="true" />
-            <element signature="e#14598#14599#0" expanded="true" />
-            <element signature="e#18433#18434#0" expanded="true" />
-            <element signature="e#18469#18470#0" expanded="true" />
-            <element signature="e#19812#19813#0" expanded="true" />
-            <element signature="e#19846#19847#0" expanded="true" />
-            <element signature="e#19906#19907#0" expanded="true" />
-            <element signature="e#19940#19941#0" expanded="true" />
-            <element signature="e#20068#20069#0" expanded="true" />
-            <element signature="e#20101#20102#0" expanded="true" />
-            <element signature="e#20437#20438#0" expanded="true" />
-            <element signature="e#20478#20479#0" expanded="true" />
-            <element signature="e#20515#20516#0" expanded="true" />
-            <element signature="e#20546#20547#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/mapeditor/HowtoFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
@@ -494,16 +465,85 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/engine/Texture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/awt/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="3309" column="16" selection-start-line="3309" selection-start-column="16" selection-end-line="3309" selection-end-column="16" />
+          <folding>
+            <element signature="e#114480#114481#0" expanded="true" />
+            <element signature="e#114527#114528#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/mapeditor/EditorPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="489">
+          <caret line="36" column="32" lean-forward="true" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
           <folding>
+            <element signature="e#2346#2347#0" expanded="true" />
             <element signature="e#2374#2375#0" expanded="true" />
+            <element signature="e#2686#2687#0" expanded="true" />
             <element signature="e#2724#2725#0" expanded="true" />
+            <element signature="e#2793#2794#0" expanded="true" />
             <element signature="e#2847#2848#0" expanded="true" />
+            <element signature="e#2879#2880#0" expanded="true" />
             <element signature="e#2910#2911#0" expanded="true" />
+            <element signature="e#2955#2956#0" expanded="true" />
             <element signature="e#2995#2996#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mapeditor/MapEditor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="296" column="62" selection-start-line="296" selection-start-column="62" selection-end-line="296" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1397#1398#0" expanded="true" />
+            <element signature="e#1428#1429#0" expanded="true" />
+            <element signature="e#1958#1959#0" expanded="true" />
+            <element signature="e#1998#1999#0" expanded="true" />
+            <element signature="e#2037#2038#0" expanded="true" />
+            <element signature="e#2075#2076#0" expanded="true" />
+            <element signature="e#10840#11002#0" expanded="true" />
+            <element signature="e#11001#11002#0" expanded="true" />
+            <element signature="e#14461#14462#0" expanded="true" />
+            <element signature="e#14539#14540#0" expanded="true" />
+            <element signature="e#14575#14576#0" expanded="true" />
+            <element signature="e#14600#14601#0" expanded="true" />
+            <element signature="e#18435#18436#0" expanded="true" />
+            <element signature="e#18471#18472#0" expanded="true" />
+            <element signature="e#19815#19816#0" expanded="true" />
+            <element signature="e#19849#19850#0" expanded="true" />
+            <element signature="e#19908#19909#0" expanded="true" />
+            <element signature="e#19942#19943#0" expanded="true" />
+            <element signature="e#20070#20071#0" expanded="true" />
+            <element signature="e#20103#20104#0" expanded="true" />
+            <element signature="e#20439#20440#0" expanded="true" />
+            <element signature="e#20480#20481#0" expanded="true" />
+            <element signature="e#20517#20518#0" expanded="true" />
+            <element signature="e#20548#20549#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mapeditor/TexturePanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
           </folding>
         </state>
       </provider>
