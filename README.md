@@ -45,7 +45,7 @@ Example:
 
 
 ### How to Use Bambuu
-![How to use bambuu](https://github.com/kevinmkchin/kevinmkchin.github.io/blob/master/bambuu/bb3.PNG?raw=true)
+![How to use bambuu](https://raw.githubusercontent.com/kevinmkchin/kevinmkchin.github.io/master/bambuu/bambuu%20howto.PNG)
 
 
 ### Saving and Loading Tile Maps
@@ -60,10 +60,5 @@ Add the extension **.txt** if you want a regular text file instead.
 You can customize the background color of the editor.
 
 You must specify the size of your custom tiles (default is 64x64).
-![Settings](https://i.imgur.com/cP4JXIy.png)
+![Settings](https://github.com/kevinmkchin/kevinmkchin.github.io/blob/master/bambuu/bb3.PNG?raw=true)
 ![Background changed](https://i.imgur.com/v6zvdwb.png)
-
-
-### Features to add in the Future:
-- being able to make square tilemaps without use of row delimiter.
-- "undo" function
