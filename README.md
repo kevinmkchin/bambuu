@@ -45,7 +45,7 @@ Example:
 
 
 ### How to Use Bambuu
-![How to use bambuu](https://i.imgur.com/oMLTtGb.png)
+![How to use bambuu](https://github.com/kevinmkchin/kevinmkchin.github.io/blob/master/bambuu/bb3.PNG?raw=true)
 
 
 ### Saving and Loading Tile Maps
