@@ -97,6 +97,10 @@ public class Settings {
     }
 
     public String getLineDelimiter() {
+        if(lineDelimiter.equals("\\n"))
+        {
+            return "\n";
+        }
         return lineDelimiter;
     }
 
