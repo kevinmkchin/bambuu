@@ -1,5 +1,6 @@
+# 2022-10-31 - Check out https://github.com/kevinmkchin/bambuu2
+
 # bambuu
-**Bambuu** TileMap Editor https://spaceghost.ca/bambuu.html
 
 Standalone editor from https://github.com/kevinmkchin/rayjax-engine
 
